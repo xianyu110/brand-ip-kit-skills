@@ -1,0 +1,5 @@
+out/
+brand/
+__pycache__/
+*.pyc
+.DS_Store

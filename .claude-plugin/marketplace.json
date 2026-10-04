@@ -1,0 +1,33 @@
+{
+  "name": "brand-ip-kit-skills",
+  "owner": {
+    "name": "xianyu110",
+    "url": "https://github.com/xianyu110"
+  },
+  "metadata": {
+    "description": "12 Agent Skills for a full brand / IP visual kit with GPT Image 2.5 (Flare / Sunburst): IP character sheet, logo lockup, colour & type, VI mockups, packaging, stickers, social kit, posters, merch, brand book, consistency lock, holiday campaigns",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "brand-ip-kit-skills",
+      "description": "品牌/IP 全套视觉：IP 设定板、Logo 组合、色彩字体、VI 样机、包装、表情包、社媒套件、场景海报、周边、品牌手册、一致性锁定、节日营销。",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/brand-color-type-system",
+        "./skills/brand-guidelines",
+        "./skills/holiday-campaign",
+        "./skills/ip-character-sheet",
+        "./skills/ip-consistency-lock",
+        "./skills/ip-scene-poster",
+        "./skills/logo-lockup",
+        "./skills/merch-design",
+        "./skills/packaging-design",
+        "./skills/social-avatar-cover",
+        "./skills/sticker-pack",
+        "./skills/vi-mockup"
+      ]
+    }
+  ]
+}
