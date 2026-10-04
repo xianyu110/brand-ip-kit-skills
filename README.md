@@ -144,6 +144,7 @@ Image 1 is text-to-image; images 2–12 all use image 1 as the only identity ref
 skill 里的出图脚本只认 `GPTIMAGE_API_KEY` + `GPTIMAGE_BASE_URL`，任何 OpenAI 兼容接口都能接。手上没有的话：
 
 - **方法一**：`https://claude-opus.top/` — Claude 国内镜像站，打开网页就能用 Claude，把 `SKILL.md` 内容贴进去即可按流程出提示词。
+- **不想配环境？** `https://gptimage2.asia/` — 在线直接用 GPT Image 2.5 出图，把 skill 里的提示词模板贴进去就行。
 - **方法二**：`https://tryallapi.com/register?aff=5A6A` — 一站式 API，GPT Image 2.5 / Claude / Gemini 一个 key 全部可用。可直接作为 `BASE_URL` 兜底：
 
 ```bash
@@ -187,6 +188,8 @@ export GPTIMAGE_API_KEY=sk-...
 export GPTIMAGE_BASE_URL=https://api.openai.com   # or any OpenAI-compatible gateway, e.g. https://tryallapi.com/v1
 ```
 
+No setup? Paste the prompt templates into `https://gptimage2.asia/` to run GPT Image 2.5 in the browser.
+
 ### Skills
 
 | Skill | What it does | Default model |
@@ -229,6 +232,7 @@ export GPTIMAGE_BASE_URL=https://api.openai.com   # or any OpenAI-compatible gat
 
 ## Related
 
+- [gptimage2.asia](https://gptimage2.asia/?utm_source=github&utm_medium=readme&utm_campaign=brand-ip-kit-skills) — 在线使用 GPT Image 2.5，无需 API Key / run GPT Image 2.5 online
 - [ecommerce-image-skills](https://github.com/xianyu110/ecommerce-image-skills) — 12 个电商出图 Agent Skills（GPT Image 2.5）
 - [awesome-gpt-image2.5](https://github.com/xianyu110/awesome-gpt-image2.5) — GPT Image 2.5 提示词案例库
 
